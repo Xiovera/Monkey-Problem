@@ -1,0 +1,8 @@
+*{
+	outline: 1px solid red;
+}
+.monkey-fondo{
+	background: url(../img/monkey_patern2.jpg) no-repeat;
+	background-size: cover;
+
+}
