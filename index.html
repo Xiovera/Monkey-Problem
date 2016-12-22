@@ -13,11 +13,36 @@
 <body>
 <div class="monkey-fondo">
 	<div class="oscurito">
-	<div class="container-fluid">
-		<div class="row">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h1 class="text-center well">Monkey Trouble</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Mono A</h2>
+					<label for="mono_a">
+						<input type="checkbox" onchange="monoA()" id="mono_a">Está feliz
+					</label>
+					<div id="img_mono_a"></div>
+				</div>
+				<div class="col-md-6">
+					<h2>Mono B</h2>
+					<label for="mono_b">
+						<input type="checkbox" onchange="monoB()" id="mono_b">Está feliz
+					</label>
+					<div id="img_mono_b"></div>
+				</div>
+			</div>
+		</div>
+		<div class="well">
+			<h3 class="center-block text-center">Averigua si estamos en problemas</h3>
+			<h1 id="salida"></h1>
 		</div>
 	</div>
-	</div>
+	<p><button onclick="evaluar()" class="btn btn-warning btn-lg center-block text-center" >Evaluar</button></p>
 </div>
 </body>
 <script src="Js/main.js"></script>
