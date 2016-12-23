@@ -1,8 +1,18 @@
-*{
+/**{
 	outline: 1px solid red;
-}
+}*/
 .monkey-fondo{
-	background: url(../img/monkey_patern2.jpg) no-repeat;
-	background-size: cover;
-
+	background: url(../img/monkey_pattern2.jpg);
+}
+h1, h2, h3{
+	font-family: 'Fredoka+One',cursive;
+	color: pink;
+	text-shadow: 1px 1px black;
+}
+.thumbnail{
+	background-color:unset !important;
+	border:unset !important;
+}
+.oscurito{
+	background: rgba(79, 79, 79, 0.4);
 }

@@ -15,34 +15,42 @@
 	<div class="oscurito">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
+				<div class="col-md-6 col-md-offset-2 text-center">
 					<h1 class="text-center well">Monkey Trouble</h1>
-					<hr>
+				</div>
+				<div class="col-md-2 center-block">
+					<img class="img-responsive" src="img/logo.jpg" alt="monkeyQuest">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<h2>Mono A</h2>
-					<label for="mono_a">
+					<h2 class="text-center well">Mono A</h2>
+					<label for="mono_a" class="text-center">
 						<input type="checkbox" onchange="monoA()" id="mono_a">Está feliz
 					</label>
-					<div id="img_mono_a"></div>
+					<div class="center-block thumbnail" id="img_mono_a"></div>
 				</div>
 				<div class="col-md-6">
-					<h2>Mono B</h2>
+					<h2 class="text-center well">Mono B</h2>
 					<label for="mono_b">
 						<input type="checkbox" onchange="monoB()" id="mono_b">Está feliz
 					</label>
-					<div id="img_mono_b"></div>
+					<div class="center-block thumbnail" id="img_mono_b"></div>
 				</div>
 			</div>
 		</div>
-		<div class="well">
-			<h3 class="center-block text-center">Averigua si estamos en problemas</h3>
-			<h1 id="salida"></h1>
-		</div>
-	</div>
-	<p><button onclick="evaluar()" class="btn btn-warning btn-lg center-block text-center" >Evaluar</button></p>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="well">
+						<h3 class="center-block text-center">Averigua si estamos en problemas</h3>
+						<h4 class="text-center" id="salida"></h4>
+						<p><button onclick="evaluar()" class="btn btn-warning btn-lg center-block text-center" >Evaluar</button></p>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>	
 </div>
 </body>
 <script src="Js/main.js"></script>
